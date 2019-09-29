@@ -1,0 +1,60 @@
+
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+.purple {
+    color: purple;
+}
+.blue {
+    color: blue;
+}
+.black {
+    color: black;
+}
+.white {
+    color: white;
+}
+.brown {
+    color: brown;
+}
+.pink {
+    color: pink;
+}
+.aqua {
+    color: aqua;
+}
+.khaki {
+    color: khaki;
+}
+.darkmagenta {
+    color: darkmagenta;
+}
+.borderDialog {
+    margin: 0.5em;
+    border: 1px solid black;
+
+}
+
+.agreeColor {
+ background-color: rgb(222, 247, 238);
+}
+
+.cancelColor {
+    background-color: rgb(250, 231, 249);
+}
+
+.bigsize {
+    font-size: 1em !important;
+}
+
+.borderCustomFix {
+    border: 1px solid black; border-radius:1em
+}

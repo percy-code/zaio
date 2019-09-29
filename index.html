@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="plugins/bootstrap-4.3.1/bootstrap.min.css">
+  <link href="plugins/fontawesome/css/all.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <title>Percy Zaio</title>
+</head>
+
+<body class="bg-info">
+<br><br><br>
+  <div class="container p-5 bg-info">
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-3">
+
+        </div>
+      <div class="col-xs-12 col-sm-6">
+
+        <div class="card">
+          <div class="card-body">
+
+
+            <h2 class="bold"> HICKIES Originals</h1>
+            <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+            <span class="text-muted pl-4 ml-2">  1.125 reviews</span>
+            <p > <span class="text-danger h2">$18.45</span>      <span class="text-muted pl-5">$34.56</span>   <span class="text-muted pl-5">25% OFF</span></p>
+
+            <h4 class="bold">ONLINE EXCLUSIVE</h4>
+
+            <P><span class="h5">COLOR: </span> <span>Electric</span> <span id="label">Red</span></P>
+
+
+            <i class="fas fa-circle fa-2x pr-3 pb-3 darkmagenta" id="darkmagenta"></i>
+            <i class="fas fa-circle fa-2x pr-3 pb-3 text-dark" id="black2"></i>
+            <i class="fas fa-circle fa-2x pr-3 pb-3 text-secondary" id="purple2"></i>
+            <i class="fas fa-circle fa-2x pr-3 pb-3 text-danger" id="red2"></i>
+            <i class="fas fa-circle fa-2x pr-3 pb-3 red" id="red"></i>
+            <i class="fas fa-circle fa-2x pr-3 pb-3 green" id="green"></i>
+       
+
+         
+            <i class="fas fa-circle fa-2x pr-3 pb-3 black" id="black"></i>
+            <i class="fas fa-circle fa-2x pr-3 pb-3 brown" id="brown"></i>
+     
+            <i class="fas fa-circle fa-2x pr-3 pb-3 pink" id="pink"></i>
+            <i class="fas fa-circle fa-2x pr-3 pb-3 aqua" id="aqua"></i>
+            <i class="fas fa-circle fa-2x pr-3 pb-3 khaki" id="khaki"></i>
+       
+            <i class="fas fa-circle fa-2x pr-3 pb-3 text-dark" id="black2"></i>
+            <i class="fas fa-circle fa-2x pr-3 pb-3 text-secondary" id="purple2"></i>
+            <i class="fas fa-circle fa-2x pr-3 pb-3 text-danger" id="red2"></i>
+            <i class="fas fa-circle fa-2x pr-3 pb-3 white" id="white"></i>
+            <i class="fas fa-circle fa-2x pr-3 pb-3 yellow" id="yellow"></i>
+            <i class="fas fa-circle fa-2x pr-3 pb-3 purple" id="purple"></i>
+            <i class="fas fa-circle fa-2x pr-3 pb-3 blue" id="blue"></i>
+
+
+
+            <p>Size Guide</p>
+
+            <p>Your Custom Fit</p>
+
+            <div class="row">
+              <div class="s3 mr-2">
+                <div class="p-1 pl-2 pr-2 mb-2 bg-white text-dark borderCustomFix" id="numberDisplayed">0</div>
+              </div>
+              <div class="s6">
+                <div class="s6">
+                  <!-- <div class="p-3 mb-2 bg-dark text-white borderCustomFix" 
+                  id="buttonClick" >Add To Carte</div>-->
+
+                  <button type="button" id="buttonClick" class="btn  text-white bg-dark" data-toggle="modal"  >
+                      Add To Carte
+               </button> 
+                </div> 
+           
+              </div>
+            </div>
+
+            <hr>
+
+            <p class="h6"> DETAILS</p>
+            <p style="display: none" id="numberIconColor" class=""></p>
+            <hr>
+            <p class="h5">Need Help?</p>
+            <p class="h5">Shipping & Returns</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-3">
+
+        </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="zaioModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body borderDialog">
+          <p class="h6 pb-5">Please add the quantity of the Item you have selected</p>
+
+          <div class="">
+            <p ><span class="h6">Electric <span id="label2">Red</span> </span> 
+              <i class="fas fa-minus-circle fa-3x pr-3 text-dark" id="minus"></i> <span class="bigsize" id="numberDialog">0</span><i class="fas fa-plus-circle fa-3x pl-3" id="plus"></i> </p>
+
+          </div>
+          
+          <div class="float-right">
+            <button type="button" class="btn btn-primary agreeColor text-dark h2" id="agreeClicked">Agree</button>
+            <button type="button" class="btn btn-secondary cancelColor  text-dark h2" data-dismiss="modal">Cancel</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="plugins/jQuery/jQuery.min.js"></script>
+  <script src="plugins/bootstrap-4.3.1/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
